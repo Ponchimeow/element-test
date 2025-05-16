@@ -1,7 +1,7 @@
-import { createContext, useContext, useEffect, useMemo } from "react";
+import React, { createContext, useContext } from "react";
 
 const defaultAppContextProps = {
-  id: "",
+  id: "test123",
 };
 
 const AppContext = createContext<{ id: string }>(defaultAppContextProps);
